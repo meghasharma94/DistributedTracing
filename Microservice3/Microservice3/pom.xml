@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>Microservice3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Microservice1</name>
+	<name>Microservice3</name>
 	<description>Microservice3</description>
 	<properties>
 		<java.version>11</java.version>
