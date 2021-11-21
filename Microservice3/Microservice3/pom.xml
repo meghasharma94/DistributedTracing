@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>Microservice3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Microservice3</name>
+	<name>Microservice1</name>
 	<description>Microservice3</description>
 	<properties>
 		<java.version>11</java.version>
@@ -22,6 +22,9 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+		<!-- Dependencies for Zipkin and Sleuth -->
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
@@ -29,6 +32,19 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-sleuth</artifactId>
+		</dependency>
+
+		<!-- Dependencies for LogStash -->
+
+		<dependency>
+			<groupId>net.logstash.logback</groupId>
+			<artifactId>logstash-logback-encoder</artifactId>
+			<version>5.3</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-core</artifactId>
+			<version>1.2.3</version>
 		</dependency>
 
 		<dependency>
